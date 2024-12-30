@@ -1,0 +1,16 @@
+appium:
+  server:
+    host:"http://127.0.0.1"
+    port:4723
+
+android:
+  platformName: Android
+  deviceName: emulator-5554
+  app: /Users/siri/Desktop/Appium_Automation_ios_android/apkforandroidapp/android.wdio.native.app.v1.0.8.apk
+  automationName: UiAutomator2
+
+ios:
+  platformName: iOS
+  deviceName: iPhone Simulator
+  app: /Users/siri/Desktop/Appium_Automation_ios_android/ipaforiosapp/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app
+  automationName: XCUITest
